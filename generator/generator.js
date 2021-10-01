@@ -1,10 +1,11 @@
-var NumberOfMovies = 4
+var NumberOfMovies = 5
 var movies = new BuildArray(NumberOfMovies)
 
 movies[1] = "Gia"
 movies[2] = "Fear Street 1994"
 movies[3] = "Fear Street 1978"
 movies[4] = "Fear Street 1666"
+movies[5] = "Scream"
 
 function BuildArray(size){
     this.length = size
